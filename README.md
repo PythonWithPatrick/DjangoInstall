@@ -21,4 +21,21 @@ To install and run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/my-django-app.git
+   git clone https://github.com/PythonWithPatrick/Intro-Django-Project.git
+## Navigate to the project directory:
+cd my-django-app
+
+## Create a virtual environment:
+python -m venv venv
+
+## Activate the virtual environment:
+# On Windows:
+venv\Scripts\activate
+# On macOS and Linux:
+source venv/bin/activate
+
+## Install the project dependencies:
+pip install -r requirements.txt
+
+## Run the Django development server:
+python manage.py runserver
